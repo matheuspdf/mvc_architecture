@@ -1,0 +1,6 @@
+.idea/
+
+# Ignorar arquivos Python bytecode
+__pycache__/
+*.pyc
+*.pyo
