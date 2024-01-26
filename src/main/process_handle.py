@@ -1,4 +1,6 @@
-from .construtctor.introduction_process import introduction_process
+from .constructor.introduction_process import introduction_process
+from .constructor.people_finder_constructor import people_finder_constructor
+from .constructor.people_register_constructor import people_register_constructor
 
 
 def start() -> None:
@@ -6,9 +8,9 @@ def start() -> None:
         command = introduction_process()
 
         if command == '1':
-            print('comando 1 foi acionado!')
+            people_finder_constructor()
         elif command == '2':
-            print('comando 2 foi acionado!')
+            people_register_constructor()
         elif command == '5':
             exit()
         else:
