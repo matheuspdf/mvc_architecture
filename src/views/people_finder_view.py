@@ -9,8 +9,8 @@ class PeopleFinderView:
         print('Buscar Pessoa \n\n')
         name = input('Determine o nome da pessoa para busca: ')
 
-        person_finder_information = {
+        person_finder_informations = {
             "name": name
         }
 
-        return person_finder_information
+        return person_finder_informations
